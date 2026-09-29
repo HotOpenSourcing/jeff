@@ -6,6 +6,11 @@ problem with at least one of each in Python 3, one accepted and one rejected pro
 which follows a hash of the problem), asking which answers the question more correctly - JudgeBench's coding items ask
 the same. The judge's verdict is the label, so no code is run here."""
 
+import utils.net
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 import argparse
 import hashlib
 import json
